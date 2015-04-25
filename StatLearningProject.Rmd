@@ -2,7 +2,9 @@
 title: "Practical Machine Learning Project"
 author: "Todd Curtis"
 date: "April 22, 2015"
-output: html_document
+output: 
+  html_document:
+    keep_md: true
 ---
 ####Background and Executive Summary
 Devices that measure detailed, quantified, information about personal activity allow the measurement of both the quantity and quality of that activity performed by the four study subjects. The data in this project comes from accelerometers placed on the belt, forearm, arm, and dumbell of six participants. They were asked to perform one set of 10 repetitions of barbell lifts correctly, and also incorrectly in four different ways. The correct method was designated class A, and the four incorrect methods were designated class B, C, D, and E.
